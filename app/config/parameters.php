@@ -1,11 +1,18 @@
 <?php return array (
   'parameters' => 
   array (
-    'database_host' => '127.0.0.1',
+    // 'database_host' => '127.0.0.1',
+    // 'database_port' => '',
+    // 'database_name' => 'qnss',
+    // 'database_user' => 'root',
+    // 'database_password' => '123456',
+
+    'database_host' => 'remotemysql.com',
     'database_port' => '',
-    'database_name' => 'qnss',
-    'database_user' => 'root',
-    'database_password' => '123456',
+    'database_name' => '8UAPLYJVnn',
+    'database_user' => '8UAPLYJVnn',
+    'database_password' => 'QF84gLbI1J',
+
     'database_prefix' => 'qnsc_',
     'database_engine' => 'InnoDB',
     'mailer_transport' => 'smtp',
