@@ -11,8 +11,8 @@ use Twig\Sandbox\SecurityNotAllowedFunctionError;
 use Twig\Source;
 use Twig\Template;
 
-/* __string_template__bbbf9b86c230314c543f1e3ff63c39b5274e324e81c3ecf69427062164cb976f */
-class __TwigTemplate_259db80f5712a7643a34a978d7a28c27baffbafff6008de5476b78452ac65838 extends \Twig\Template
+/* __string_template__e6d951fc4499d94e3066c1698d663087125a313cecbc3fada91f18c524696f6f */
+class __TwigTemplate_cbab5aa48e1ed4a55905e0f9d89e4d6adb634a80abe3deaabc711264713b47b8 extends \Twig\Template
 {
     public function __construct(Environment $env)
     {
@@ -76,9 +76,9 @@ class __TwigTemplate_259db80f5712a7643a34a978d7a28c27baffbafff6008de5476b78452ac
     var employee_token = '0fac39555a0384c3839cd26295d52396';
     var choose_language_translate = 'Choose language';
     var default_language = '1';
-    var admin_modules_link = '/admin162vw1kms/index.php/improve/modules/catalog/recommended?_token=3UfCib4G_nsSDkykhGYZ3UKdd6K-TCwnicpl9owj7Uo';
-    var admin_notification_get_link = '/admin162vw1kms/index.php/common/notifications?_token=3UfCib4G_nsSDkykhGYZ3UKdd6K-TCwnicpl9owj7Uo';
-    var admin_notification_push_link = '/admin162vw1kms/index.php/common/notifications/ack?_token=3UfCib4G_nsSDkykhGYZ3UKdd6K-TCwnicpl9owj7Uo';
+    var admin_modules_link = '/admin162vw1kms/index.php/improve/modules/catalog/recommended?_token=X9Pyj1MP-g2KKbG3q0dqfptaJiF_ZPoT5vFrBYxFtEE';
+    var admin_notification_get_link = '/admin162vw1kms/index.php/common/notifications?_token=X9Pyj1MP-g2KKbG3q0dqfptaJiF_ZPoT5vFrBYxFtEE';
+    var admin_notification_push_link = '/admin162vw1kms/index.php/common/notifications/ack?_token=X9Pyj1MP-g2KKbG3q0dqfptaJiF_ZPoT5vFrBYxFtEE';
     var tab_modules_list = 'gadwords,seohelping,ganalytics,pm_seointernallinking,ec_seo404,gmerchantcenter,gsitemap,etranslation,bablic';
     var update_success_msg = 'Update successful';
     var errorLogin = 'PrestaShop was unable to log in to Addons. Please check your credentials and your Internet connection.';
@@ -95,7 +95,7 @@ class __TwigTemplate_259db80f5712a7643a34a978d7a28c27baffbafff6008de5476b78452ac
   <script type=\"text/javascript\">
 var baseAdminDir = \"\\/admin162vw1kms\\/\";
 var baseDir = \"\\/\";
-var changeFormLanguageUrl = \"\\/admin162vw1kms\\/index.php\\/configure\\/advanced\\/employees\\/change-form-language?_token=3UfCib4G_nsSDkykhGYZ3UKdd6K-TCwnicpl9owj7Uo\";
+var changeFormLanguageUrl = \"\\/admin162vw1kms\\/index.php\\/configure\\/advanced\\/employees\\/change-form-language?_token=X9Pyj1MP-g2KKbG3q0dqfptaJiF_ZPoT5vFrBYxFtEE\";
 var currency = {\"iso_code\":\"VND\",\"sign\":\"\\u20ab\",\"name\":\"Vietnamese Dong\",\"format\":null};
 var currency_specifications = {\"symbol\":[\".\",\",\",\";\",\"%\",\"-\",\"+\",\"E\",\"\\u00d7\",\"\\u2030\",\"\\u221e\",\"NaN\"],\"currencyCode\":\"VND\",\"currencySymbol\":\"\\u20ab\",\"positivePattern\":\"\\u00a4#,##0.00\",\"negativePattern\":\"-\\u00a4#,##0.00\",\"maxFractionDigits\":0,\"minFractionDigits\":2,\"groupingUsed\":true,\"primaryGroupSize\":3,\"secondaryGroupSize\":3};
 var host_mode = false;
@@ -262,10 +262,10 @@ function updateNotifications(type) {
           <a
         class=\"dropdown-item js-quick-link\"
         href=\"#\"
-        data-rand=\"41\"
+        data-rand=\"9\"
         data-icon=\"icon-AdminParentMeta\"
         data-method=\"add\"
-        data-url=\"index.php/configure/shop/seo-urls/?-TCwnicpl9owj7Uo\"
+        data-url=\"index.php/configure/shop/seo-urls/?-g2KKbG3q0dqfptaJiF_ZPoT5vFrBYxFtEE\"
         data-post-link=\"http://quynhonsmartservices.herokuapp.com/admin162vw1kms/index.php?controller=AdminQuickAccesses&token=4d2f3362945e0698e50d7a0ee3e6b3db\"
         data-prompt-text=\"Please name this shortcut:\"
         data-link=\"SEO &amp; URLs - List\"
@@ -319,18 +319,6 @@ function updateNotifications(type) {
       </div>
 
       
-              <div class=\"component hide-mobile-sm\" id=\"header-maintenance-mode-container\">
-          <a class=\"link shop-state\"
-             id=\"maintenance-mode\"
-             data-toggle=\"pstooltip\"
-             data-placement=\"bottom\"
-             data-html=\"true\"
-             title=\"<p class='text-left'><strong>Your shop is in maintenance.</strong></p><p class='text-left'>Your visitors and customers cannot access your shop while in maintenance mode.&lt;br /&gt; To manage the maintenance settings, go to Shop Parameters &amp;gt; Maintenance tab.</p>\" href=\"/admin162vw1kms/index.php/configure/shop/maintenance/?_token=3UfCib4G_nsSDkykhGYZ3UKdd6K-TCwnicpl9owj7Uo\"
-          >
-            <i class=\"material-icons\">build</i>
-            <span>Maintenance mode</span>
-          </a>
-        </div>
       
       <div class=\"component\" id=\"header-shop-list-container\">
           <div class=\"shop-list\">
@@ -393,21 +381,21 @@ function updateNotifications(type) {
                           <div class=\"tab-pane active empty\" id=\"orders-notifications\" role=\"tabpanel\">
             <p class=\"no-notification\">
               No new order for now :(<br>
-              Have you checked your <strong><a href=\"http://quynhonsmartservices.herokuapp.com/admin162vw1kms/index.php?controller=AdminCarts&action=filterOnlyAbandonedCarts&token=4680e8b73f52f69e086447226d25baa1\">abandoned carts</a></strong>?<br>Your next order could be hiding there!
+              Did you check your conversion rate lately?
             </p>
             <div class=\"notification-elements\"></div>
           </div>
                                     <div class=\"tab-pane  empty\" id=\"customers-notifications\" role=\"tabpanel\">
             <p class=\"no-notification\">
               No new customer for now :(<br>
-              Have you sent any acquisition email lately?
+              Have you considered selling on marketplaces?
             </p>
             <div class=\"notification-elements\"></div>
           </div>
                                     <div class=\"tab-pane  empty\" id=\"messages-notifications\" role=\"tabpanel\">
             <p class=\"no-notification\">
               No new message for now.<br>
-              That's more time for something else!
+              Seems like all your customers are happy :)
             </p>
             <div class=\"notification-elements\"></div>
           </div>
@@ -450,7 +438,7 @@ function updateNotifications(type) {
       
       <span class=\"employee_avatar\"><img class=\"avatar rounded-circle\" src=\"http://profile.prestashop.com/cuong.ictbd%40gmail.com.jpg\" /></span>
       <span class=\"employee_profile\">Welcome back QUYNHON</span>
-      <a class=\"dropdown-item employee-link profile-link\" href=\"/admin162vw1kms/index.php/configure/advanced/employees/1/edit?_token=3UfCib4G_nsSDkykhGYZ3UKdd6K-TCwnicpl9owj7Uo\">
+      <a class=\"dropdown-item employee-link profile-link\" href=\"/admin162vw1kms/index.php/configure/advanced/employees/1/edit?_token=X9Pyj1MP-g2KKbG3q0dqfptaJiF_ZPoT5vFrBYxFtEE\">
       <i class=\"material-icons\">settings</i>
       Your profile
     </a>
@@ -475,7 +463,7 @@ function updateNotifications(type) {
       </header>
 
   <nav class=\"nav-bar d-none d-md-block\">
-  <span class=\"menu-collapse\" data-toggle-url=\"/admin162vw1kms/index.php/configure/advanced/employees/toggle-navigation?_token=3UfCib4G_nsSDkykhGYZ3UKdd6K-TCwnicpl9owj7Uo\">
+  <span class=\"menu-collapse\" data-toggle-url=\"/admin162vw1kms/index.php/configure/advanced/employees/toggle-navigation?_token=X9Pyj1MP-g2KKbG3q0dqfptaJiF_ZPoT5vFrBYxFtEE\">
     <i class=\"material-icons\">chevron_left</i>
     <i class=\"material-icons\">chevron_left</i>
   </span>
@@ -528,7 +516,7 @@ function updateNotifications(type) {
                             
                                                         
                             <li class=\"link-leveltwo \" data-submenu=\"5\" id=\"subtab-AdminInvoices\">
-                              <a href=\"/admin162vw1kms/index.php/sell/orders/invoices/?_token=3UfCib4G_nsSDkykhGYZ3UKdd6K-TCwnicpl9owj7Uo\" class=\"link\"> Invoices
+                              <a href=\"/admin162vw1kms/index.php/sell/orders/invoices/?_token=X9Pyj1MP-g2KKbG3q0dqfptaJiF_ZPoT5vFrBYxFtEE\" class=\"link\"> Invoices
                               </a>
                             </li>
 
@@ -544,7 +532,7 @@ function updateNotifications(type) {
                             
                                                         
                             <li class=\"link-leveltwo \" data-submenu=\"7\" id=\"subtab-AdminDeliverySlip\">
-                              <a href=\"/admin162vw1kms/index.php/sell/orders/delivery-slips/?_token=3UfCib4G_nsSDkykhGYZ3UKdd6K-TCwnicpl9owj7Uo\" class=\"link\"> Delivery Slips
+                              <a href=\"/admin162vw1kms/index.php/sell/orders/delivery-slips/?_token=X9Pyj1MP-g2KKbG3q0dqfptaJiF_ZPoT5vFrBYxFtEE\" class=\"link\"> Delivery Slips
                               </a>
                             </li>
 
@@ -563,7 +551,7 @@ function updateNotifications(type) {
                                                 
                 
                 <li class=\"link-levelone has_submenu\" data-submenu=\"9\" id=\"subtab-AdminCatalog\">
-                  <a href=\"/admin162vw1kms/index.php/sell/catalog/products?_token=3UfCib4G_nsSDkykhGYZ3UKdd6K-TCwnicpl9owj7Uo\" class=\"link\">
+                  <a href=\"/admin162vw1kms/index.php/sell/catalog/products?_token=X9Pyj1MP-g2KKbG3q0dqfptaJiF_ZPoT5vFrBYxFtEE\" class=\"link\">
                     <i class=\"material-icons mi-store\">store</i>
                     <span>
                     Catalog
@@ -577,7 +565,7 @@ function updateNotifications(type) {
                             
                                                         
                             <li class=\"link-leveltwo \" data-submenu=\"10\" id=\"subtab-AdminProducts\">
-                              <a href=\"/admin162vw1kms/index.php/sell/catalog/products?_token=3UfCib4G_nsSDkykhGYZ3UKdd6K-TCwnicpl9owj7Uo\" class=\"link\"> Products
+                              <a href=\"/admin162vw1kms/index.php/sell/catalog/products?_token=X9Pyj1MP-g2KKbG3q0dqfptaJiF_ZPoT5vFrBYxFtEE\" class=\"link\"> Products
                               </a>
                             </li>
 
@@ -585,7 +573,7 @@ function updateNotifications(type) {
                             
                                                         
                             <li class=\"link-leveltwo \" data-submenu=\"11\" id=\"subtab-AdminCategories\">
-                              <a href=\"/admin162vw1kms/index.php/sell/catalog/categories?_token=3UfCib4G_nsSDkykhGYZ3UKdd6K-TCwnicpl9owj7Uo\" class=\"link\"> Categories
+                              <a href=\"/admin162vw1kms/index.php/sell/catalog/categories?_token=X9Pyj1MP-g2KKbG3q0dqfptaJiF_ZPoT5vFrBYxFtEE\" class=\"link\"> Categories
                               </a>
                             </li>
 
@@ -609,7 +597,7 @@ function updateNotifications(type) {
                             
                                                         
                             <li class=\"link-leveltwo \" data-submenu=\"16\" id=\"subtab-AdminParentManufacturers\">
-                              <a href=\"/admin162vw1kms/index.php/sell/catalog/brands/?_token=3UfCib4G_nsSDkykhGYZ3UKdd6K-TCwnicpl9owj7Uo\" class=\"link\"> Brands &amp; Suppliers
+                              <a href=\"/admin162vw1kms/index.php/sell/catalog/brands/?_token=X9Pyj1MP-g2KKbG3q0dqfptaJiF_ZPoT5vFrBYxFtEE\" class=\"link\"> Brands &amp; Suppliers
                               </a>
                             </li>
 
@@ -633,7 +621,7 @@ function updateNotifications(type) {
                             
                                                         
                             <li class=\"link-leveltwo \" data-submenu=\"23\" id=\"subtab-AdminStockManagement\">
-                              <a href=\"/admin162vw1kms/index.php/sell/stocks/?_token=3UfCib4G_nsSDkykhGYZ3UKdd6K-TCwnicpl9owj7Uo\" class=\"link\"> Stocks
+                              <a href=\"/admin162vw1kms/index.php/sell/stocks/?_token=X9Pyj1MP-g2KKbG3q0dqfptaJiF_ZPoT5vFrBYxFtEE\" class=\"link\"> Stocks
                               </a>
                             </li>
 
@@ -644,7 +632,7 @@ function updateNotifications(type) {
                                                 
                 
                 <li class=\"link-levelone has_submenu\" data-submenu=\"24\" id=\"subtab-AdminParentCustomer\">
-                  <a href=\"/admin162vw1kms/index.php/sell/customers/?_token=3UfCib4G_nsSDkykhGYZ3UKdd6K-TCwnicpl9owj7Uo\" class=\"link\">
+                  <a href=\"/admin162vw1kms/index.php/sell/customers/?_token=X9Pyj1MP-g2KKbG3q0dqfptaJiF_ZPoT5vFrBYxFtEE\" class=\"link\">
                     <i class=\"material-icons mi-account_circle\">account_circle</i>
                     <span>
                     Customers
@@ -658,7 +646,7 @@ function updateNotifications(type) {
                             
                                                         
                             <li class=\"link-leveltwo \" data-submenu=\"25\" id=\"subtab-AdminCustomers\">
-                              <a href=\"/admin162vw1kms/index.php/sell/customers/?_token=3UfCib4G_nsSDkykhGYZ3UKdd6K-TCwnicpl9owj7Uo\" class=\"link\"> Customers
+                              <a href=\"/admin162vw1kms/index.php/sell/customers/?_token=X9Pyj1MP-g2KKbG3q0dqfptaJiF_ZPoT5vFrBYxFtEE\" class=\"link\"> Customers
                               </a>
                             </li>
 
@@ -743,7 +731,7 @@ function updateNotifications(type) {
                                                 
                 
                 <li class=\"link-levelone has_submenu\" data-submenu=\"43\" id=\"subtab-AdminParentModulesSf\">
-                  <a href=\"/admin162vw1kms/index.php/improve/modules/manage?_token=3UfCib4G_nsSDkykhGYZ3UKdd6K-TCwnicpl9owj7Uo\" class=\"link\">
+                  <a href=\"/admin162vw1kms/index.php/improve/modules/manage?_token=X9Pyj1MP-g2KKbG3q0dqfptaJiF_ZPoT5vFrBYxFtEE\" class=\"link\">
                     <i class=\"material-icons mi-extension\">extension</i>
                     <span>
                     Modules
@@ -757,7 +745,7 @@ function updateNotifications(type) {
                             
                                                         
                             <li class=\"link-leveltwo \" data-submenu=\"44\" id=\"subtab-AdminModulesSf\">
-                              <a href=\"/admin162vw1kms/index.php/improve/modules/manage?_token=3UfCib4G_nsSDkykhGYZ3UKdd6K-TCwnicpl9owj7Uo\" class=\"link\"> Module Manager
+                              <a href=\"/admin162vw1kms/index.php/improve/modules/manage?_token=X9Pyj1MP-g2KKbG3q0dqfptaJiF_ZPoT5vFrBYxFtEE\" class=\"link\"> Module Manager
                               </a>
                             </li>
 
@@ -776,7 +764,7 @@ function updateNotifications(type) {
                                                 
                 
                 <li class=\"link-levelone has_submenu\" data-submenu=\"52\" id=\"subtab-AdminParentThemes\">
-                  <a href=\"/admin162vw1kms/index.php/improve/design/themes/?_token=3UfCib4G_nsSDkykhGYZ3UKdd6K-TCwnicpl9owj7Uo\" class=\"link\">
+                  <a href=\"/admin162vw1kms/index.php/improve/design/themes/?_token=X9Pyj1MP-g2KKbG3q0dqfptaJiF_ZPoT5vFrBYxFtEE\" class=\"link\">
                     <i class=\"material-icons mi-desktop_mac\">desktop_mac</i>
                     <span>
                     Design
@@ -790,7 +778,7 @@ function updateNotifications(type) {
                             
                                                         
                             <li class=\"link-leveltwo \" data-submenu=\"126\" id=\"subtab-AdminThemesParent\">
-                              <a href=\"/admin162vw1kms/index.php/improve/design/themes/?_token=3UfCib4G_nsSDkykhGYZ3UKdd6K-TCwnicpl9owj7Uo\" class=\"link\"> Theme &amp; Logo
+                              <a href=\"/admin162vw1kms/index.php/improve/design/themes/?_token=X9Pyj1MP-g2KKbG3q0dqfptaJiF_ZPoT5vFrBYxFtEE\" class=\"link\"> Theme &amp; Logo
                               </a>
                             </li>
 
@@ -806,7 +794,7 @@ function updateNotifications(type) {
                             
                                                         
                             <li class=\"link-leveltwo \" data-submenu=\"55\" id=\"subtab-AdminParentMailTheme\">
-                              <a href=\"/admin162vw1kms/index.php/improve/design/mail_theme/?_token=3UfCib4G_nsSDkykhGYZ3UKdd6K-TCwnicpl9owj7Uo\" class=\"link\"> Email Theme
+                              <a href=\"/admin162vw1kms/index.php/improve/design/mail_theme/?_token=X9Pyj1MP-g2KKbG3q0dqfptaJiF_ZPoT5vFrBYxFtEE\" class=\"link\"> Email Theme
                               </a>
                             </li>
 
@@ -814,7 +802,7 @@ function updateNotifications(type) {
                             
                                                         
                             <li class=\"link-leveltwo \" data-submenu=\"57\" id=\"subtab-AdminCmsContent\">
-                              <a href=\"/admin162vw1kms/index.php/improve/design/cms-pages/?_token=3UfCib4G_nsSDkykhGYZ3UKdd6K-TCwnicpl9owj7Uo\" class=\"link\"> Pages
+                              <a href=\"/admin162vw1kms/index.php/improve/design/cms-pages/?_token=X9Pyj1MP-g2KKbG3q0dqfptaJiF_ZPoT5vFrBYxFtEE\" class=\"link\"> Pages
                               </a>
                             </li>
 
@@ -822,7 +810,7 @@ function updateNotifications(type) {
                             
                                                         
                             <li class=\"link-leveltwo \" data-submenu=\"58\" id=\"subtab-AdminModulesPositions\">
-                              <a href=\"/admin162vw1kms/index.php/improve/design/modules/positions/?_token=3UfCib4G_nsSDkykhGYZ3UKdd6K-TCwnicpl9owj7Uo\" class=\"link\"> Positions
+                              <a href=\"/admin162vw1kms/index.php/improve/design/modules/positions/?_token=X9Pyj1MP-g2KKbG3q0dqfptaJiF_ZPoT5vFrBYxFtEE\" class=\"link\"> Positions
                               </a>
                             </li>
 
@@ -838,7 +826,7 @@ function updateNotifications(type) {
                             
                                                         
                             <li class=\"link-leveltwo \" data-submenu=\"125\" id=\"subtab-AdminLinkWidget\">
-                              <a href=\"/admin162vw1kms/index.php/modules/link-widget/list?_token=3UfCib4G_nsSDkykhGYZ3UKdd6K-TCwnicpl9owj7Uo\" class=\"link\"> Link Widget
+                              <a href=\"/admin162vw1kms/index.php/modules/link-widget/list?_token=X9Pyj1MP-g2KKbG3q0dqfptaJiF_ZPoT5vFrBYxFtEE\" class=\"link\"> Link Widget
                               </a>
                             </li>
 
@@ -871,7 +859,7 @@ function updateNotifications(type) {
                             
                                                         
                             <li class=\"link-leveltwo \" data-submenu=\"62\" id=\"subtab-AdminShipping\">
-                              <a href=\"/admin162vw1kms/index.php/improve/shipping/preferences?_token=3UfCib4G_nsSDkykhGYZ3UKdd6K-TCwnicpl9owj7Uo\" class=\"link\"> Preferences
+                              <a href=\"/admin162vw1kms/index.php/improve/shipping/preferences?_token=X9Pyj1MP-g2KKbG3q0dqfptaJiF_ZPoT5vFrBYxFtEE\" class=\"link\"> Preferences
                               </a>
                             </li>
 
@@ -882,7 +870,7 @@ function updateNotifications(type) {
                                                 
                 
                 <li class=\"link-levelone has_submenu\" data-submenu=\"63\" id=\"subtab-AdminParentPayment\">
-                  <a href=\"/admin162vw1kms/index.php/improve/payment/payment_methods?_token=3UfCib4G_nsSDkykhGYZ3UKdd6K-TCwnicpl9owj7Uo\" class=\"link\">
+                  <a href=\"/admin162vw1kms/index.php/improve/payment/payment_methods?_token=X9Pyj1MP-g2KKbG3q0dqfptaJiF_ZPoT5vFrBYxFtEE\" class=\"link\">
                     <i class=\"material-icons mi-payment\">payment</i>
                     <span>
                     Payment
@@ -896,7 +884,7 @@ function updateNotifications(type) {
                             
                                                         
                             <li class=\"link-leveltwo \" data-submenu=\"64\" id=\"subtab-AdminPayment\">
-                              <a href=\"/admin162vw1kms/index.php/improve/payment/payment_methods?_token=3UfCib4G_nsSDkykhGYZ3UKdd6K-TCwnicpl9owj7Uo\" class=\"link\"> Payment Methods
+                              <a href=\"/admin162vw1kms/index.php/improve/payment/payment_methods?_token=X9Pyj1MP-g2KKbG3q0dqfptaJiF_ZPoT5vFrBYxFtEE\" class=\"link\"> Payment Methods
                               </a>
                             </li>
 
@@ -904,7 +892,7 @@ function updateNotifications(type) {
                             
                                                         
                             <li class=\"link-leveltwo \" data-submenu=\"65\" id=\"subtab-AdminPaymentPreferences\">
-                              <a href=\"/admin162vw1kms/index.php/improve/payment/preferences?_token=3UfCib4G_nsSDkykhGYZ3UKdd6K-TCwnicpl9owj7Uo\" class=\"link\"> Preferences
+                              <a href=\"/admin162vw1kms/index.php/improve/payment/preferences?_token=X9Pyj1MP-g2KKbG3q0dqfptaJiF_ZPoT5vFrBYxFtEE\" class=\"link\"> Preferences
                               </a>
                             </li>
 
@@ -915,7 +903,7 @@ function updateNotifications(type) {
                                                 
                 
                 <li class=\"link-levelone has_submenu\" data-submenu=\"66\" id=\"subtab-AdminInternational\">
-                  <a href=\"/admin162vw1kms/index.php/improve/international/localization/?_token=3UfCib4G_nsSDkykhGYZ3UKdd6K-TCwnicpl9owj7Uo\" class=\"link\">
+                  <a href=\"/admin162vw1kms/index.php/improve/international/localization/?_token=X9Pyj1MP-g2KKbG3q0dqfptaJiF_ZPoT5vFrBYxFtEE\" class=\"link\">
                     <i class=\"material-icons mi-language\">language</i>
                     <span>
                     International
@@ -929,7 +917,7 @@ function updateNotifications(type) {
                             
                                                         
                             <li class=\"link-leveltwo \" data-submenu=\"67\" id=\"subtab-AdminParentLocalization\">
-                              <a href=\"/admin162vw1kms/index.php/improve/international/localization/?_token=3UfCib4G_nsSDkykhGYZ3UKdd6K-TCwnicpl9owj7Uo\" class=\"link\"> Localization
+                              <a href=\"/admin162vw1kms/index.php/improve/international/localization/?_token=X9Pyj1MP-g2KKbG3q0dqfptaJiF_ZPoT5vFrBYxFtEE\" class=\"link\"> Localization
                               </a>
                             </li>
 
@@ -945,7 +933,7 @@ function updateNotifications(type) {
                             
                                                         
                             <li class=\"link-leveltwo \" data-submenu=\"76\" id=\"subtab-AdminParentTaxes\">
-                              <a href=\"/admin162vw1kms/index.php/improve/international/taxes/?_token=3UfCib4G_nsSDkykhGYZ3UKdd6K-TCwnicpl9owj7Uo\" class=\"link\"> Taxes
+                              <a href=\"/admin162vw1kms/index.php/improve/international/taxes/?_token=X9Pyj1MP-g2KKbG3q0dqfptaJiF_ZPoT5vFrBYxFtEE\" class=\"link\"> Taxes
                               </a>
                             </li>
 
@@ -953,7 +941,7 @@ function updateNotifications(type) {
                             
                                                         
                             <li class=\"link-leveltwo \" data-submenu=\"79\" id=\"subtab-AdminTranslations\">
-                              <a href=\"/admin162vw1kms/index.php/improve/international/translations/settings?_token=3UfCib4G_nsSDkykhGYZ3UKdd6K-TCwnicpl9owj7Uo\" class=\"link\"> Translations
+                              <a href=\"/admin162vw1kms/index.php/improve/international/translations/settings?_token=X9Pyj1MP-g2KKbG3q0dqfptaJiF_ZPoT5vFrBYxFtEE\" class=\"link\"> Translations
                               </a>
                             </li>
 
@@ -974,7 +962,7 @@ function updateNotifications(type) {
                                                 
                                                     
                 <li class=\"link-levelone has_submenu -active\" data-submenu=\"81\" id=\"subtab-ShopParameters\">
-                  <a href=\"/admin162vw1kms/index.php/configure/shop/preferences/preferences?_token=3UfCib4G_nsSDkykhGYZ3UKdd6K-TCwnicpl9owj7Uo\" class=\"link\">
+                  <a href=\"/admin162vw1kms/index.php/configure/shop/preferences/preferences?_token=X9Pyj1MP-g2KKbG3q0dqfptaJiF_ZPoT5vFrBYxFtEE\" class=\"link\">
                     <i class=\"material-icons mi-settings\">settings</i>
                     <span>
                     Shop Parameters
@@ -988,7 +976,7 @@ function updateNotifications(type) {
                             
                                                         
                             <li class=\"link-leveltwo \" data-submenu=\"82\" id=\"subtab-AdminParentPreferences\">
-                              <a href=\"/admin162vw1kms/index.php/configure/shop/preferences/preferences?_token=3UfCib4G_nsSDkykhGYZ3UKdd6K-TCwnicpl9owj7Uo\" class=\"link\"> General
+                              <a href=\"/admin162vw1kms/index.php/configure/shop/preferences/preferences?_token=X9Pyj1MP-g2KKbG3q0dqfptaJiF_ZPoT5vFrBYxFtEE\" class=\"link\"> General
                               </a>
                             </li>
 
@@ -996,7 +984,7 @@ function updateNotifications(type) {
                             
                                                         
                             <li class=\"link-leveltwo \" data-submenu=\"85\" id=\"subtab-AdminParentOrderPreferences\">
-                              <a href=\"/admin162vw1kms/index.php/configure/shop/order-preferences/?_token=3UfCib4G_nsSDkykhGYZ3UKdd6K-TCwnicpl9owj7Uo\" class=\"link\"> Order Settings
+                              <a href=\"/admin162vw1kms/index.php/configure/shop/order-preferences/?_token=X9Pyj1MP-g2KKbG3q0dqfptaJiF_ZPoT5vFrBYxFtEE\" class=\"link\"> Order Settings
                               </a>
                             </li>
 
@@ -1004,7 +992,7 @@ function updateNotifications(type) {
                             
                                                         
                             <li class=\"link-leveltwo \" data-submenu=\"88\" id=\"subtab-AdminPPreferences\">
-                              <a href=\"/admin162vw1kms/index.php/configure/shop/product-preferences/?_token=3UfCib4G_nsSDkykhGYZ3UKdd6K-TCwnicpl9owj7Uo\" class=\"link\"> Product Settings
+                              <a href=\"/admin162vw1kms/index.php/configure/shop/product-preferences/?_token=X9Pyj1MP-g2KKbG3q0dqfptaJiF_ZPoT5vFrBYxFtEE\" class=\"link\"> Product Settings
                               </a>
                             </li>
 
@@ -1012,7 +1000,7 @@ function updateNotifications(type) {
                             
                                                         
                             <li class=\"link-leveltwo \" data-submenu=\"89\" id=\"subtab-AdminParentCustomerPreferences\">
-                              <a href=\"/admin162vw1kms/index.php/configure/shop/customer-preferences/?_token=3UfCib4G_nsSDkykhGYZ3UKdd6K-TCwnicpl9owj7Uo\" class=\"link\"> Customer Settings
+                              <a href=\"/admin162vw1kms/index.php/configure/shop/customer-preferences/?_token=X9Pyj1MP-g2KKbG3q0dqfptaJiF_ZPoT5vFrBYxFtEE\" class=\"link\"> Customer Settings
                               </a>
                             </li>
 
@@ -1020,7 +1008,7 @@ function updateNotifications(type) {
                             
                                                         
                             <li class=\"link-leveltwo \" data-submenu=\"93\" id=\"subtab-AdminParentStores\">
-                              <a href=\"/admin162vw1kms/index.php/configure/shop/contacts/?_token=3UfCib4G_nsSDkykhGYZ3UKdd6K-TCwnicpl9owj7Uo\" class=\"link\"> Contact
+                              <a href=\"/admin162vw1kms/index.php/configure/shop/contacts/?_token=X9Pyj1MP-g2KKbG3q0dqfptaJiF_ZPoT5vFrBYxFtEE\" class=\"link\"> Contact
                               </a>
                             </li>
 
@@ -1028,7 +1016,7 @@ function updateNotifications(type) {
                             
                                                         
                             <li class=\"link-leveltwo -active\" data-submenu=\"96\" id=\"subtab-AdminParentMeta\">
-                              <a href=\"/admin162vw1kms/index.php/configure/shop/seo-urls/?_token=3UfCib4G_nsSDkykhGYZ3UKdd6K-TCwnicpl9owj7Uo\" class=\"link\"> Traffic &amp; SEO
+                              <a href=\"/admin162vw1kms/index.php/configure/shop/seo-urls/?_token=X9Pyj1MP-g2KKbG3q0dqfptaJiF_ZPoT5vFrBYxFtEE\" class=\"link\"> Traffic &amp; SEO
                               </a>
                             </li>
 
@@ -1055,7 +1043,7 @@ function updateNotifications(type) {
                                                 
                 
                 <li class=\"link-levelone has_submenu\" data-submenu=\"103\" id=\"subtab-AdminAdvancedParameters\">
-                  <a href=\"/admin162vw1kms/index.php/configure/advanced/system-information/?_token=3UfCib4G_nsSDkykhGYZ3UKdd6K-TCwnicpl9owj7Uo\" class=\"link\">
+                  <a href=\"/admin162vw1kms/index.php/configure/advanced/system-information/?_token=X9Pyj1MP-g2KKbG3q0dqfptaJiF_ZPoT5vFrBYxFtEE\" class=\"link\">
                     <i class=\"material-icons mi-settings_applications\">settings_applications</i>
                     <span>
                     Advanced Parameters
@@ -1069,7 +1057,7 @@ function updateNotifications(type) {
                             
                                                         
                             <li class=\"link-leveltwo \" data-submenu=\"104\" id=\"subtab-AdminInformation\">
-                              <a href=\"/admin162vw1kms/index.php/configure/advanced/system-information/?_token=3UfCib4G_nsSDkykhGYZ3UKdd6K-TCwnicpl9owj7Uo\" class=\"link\"> Information
+                              <a href=\"/admin162vw1kms/index.php/configure/advanced/system-information/?_token=X9Pyj1MP-g2KKbG3q0dqfptaJiF_ZPoT5vFrBYxFtEE\" class=\"link\"> Information
                               </a>
                             </li>
 
@@ -1077,7 +1065,7 @@ function updateNotifications(type) {
                             
                                                         
                             <li class=\"link-leveltwo \" data-submenu=\"105\" id=\"subtab-AdminPerformance\">
-                              <a href=\"/admin162vw1kms/index.php/configure/advanced/performance/?_token=3UfCib4G_nsSDkykhGYZ3UKdd6K-TCwnicpl9owj7Uo\" class=\"link\"> Performance
+                              <a href=\"/admin162vw1kms/index.php/configure/advanced/performance/?_token=X9Pyj1MP-g2KKbG3q0dqfptaJiF_ZPoT5vFrBYxFtEE\" class=\"link\"> Performance
                               </a>
                             </li>
 
@@ -1085,7 +1073,7 @@ function updateNotifications(type) {
                             
                                                         
                             <li class=\"link-leveltwo \" data-submenu=\"106\" id=\"subtab-AdminAdminPreferences\">
-                              <a href=\"/admin162vw1kms/index.php/configure/advanced/administration/?_token=3UfCib4G_nsSDkykhGYZ3UKdd6K-TCwnicpl9owj7Uo\" class=\"link\"> Administration
+                              <a href=\"/admin162vw1kms/index.php/configure/advanced/administration/?_token=X9Pyj1MP-g2KKbG3q0dqfptaJiF_ZPoT5vFrBYxFtEE\" class=\"link\"> Administration
                               </a>
                             </li>
 
@@ -1093,7 +1081,7 @@ function updateNotifications(type) {
                             
                                                         
                             <li class=\"link-leveltwo \" data-submenu=\"107\" id=\"subtab-AdminEmails\">
-                              <a href=\"/admin162vw1kms/index.php/configure/advanced/emails/?_token=3UfCib4G_nsSDkykhGYZ3UKdd6K-TCwnicpl9owj7Uo\" class=\"link\"> E-mail
+                              <a href=\"/admin162vw1kms/index.php/configure/advanced/emails/?_token=X9Pyj1MP-g2KKbG3q0dqfptaJiF_ZPoT5vFrBYxFtEE\" class=\"link\"> E-mail
                               </a>
                             </li>
 
@@ -1101,7 +1089,7 @@ function updateNotifications(type) {
                             
                                                         
                             <li class=\"link-leveltwo \" data-submenu=\"108\" id=\"subtab-AdminImport\">
-                              <a href=\"/admin162vw1kms/index.php/configure/advanced/import/?_token=3UfCib4G_nsSDkykhGYZ3UKdd6K-TCwnicpl9owj7Uo\" class=\"link\"> Import
+                              <a href=\"/admin162vw1kms/index.php/configure/advanced/import/?_token=X9Pyj1MP-g2KKbG3q0dqfptaJiF_ZPoT5vFrBYxFtEE\" class=\"link\"> Import
                               </a>
                             </li>
 
@@ -1109,7 +1097,7 @@ function updateNotifications(type) {
                             
                                                         
                             <li class=\"link-leveltwo \" data-submenu=\"109\" id=\"subtab-AdminParentEmployees\">
-                              <a href=\"/admin162vw1kms/index.php/configure/advanced/employees/?_token=3UfCib4G_nsSDkykhGYZ3UKdd6K-TCwnicpl9owj7Uo\" class=\"link\"> Team
+                              <a href=\"/admin162vw1kms/index.php/configure/advanced/employees/?_token=X9Pyj1MP-g2KKbG3q0dqfptaJiF_ZPoT5vFrBYxFtEE\" class=\"link\"> Team
                               </a>
                             </li>
 
@@ -1117,7 +1105,7 @@ function updateNotifications(type) {
                             
                                                         
                             <li class=\"link-leveltwo \" data-submenu=\"113\" id=\"subtab-AdminParentRequestSql\">
-                              <a href=\"/admin162vw1kms/index.php/configure/advanced/sql-requests/?_token=3UfCib4G_nsSDkykhGYZ3UKdd6K-TCwnicpl9owj7Uo\" class=\"link\"> Database
+                              <a href=\"/admin162vw1kms/index.php/configure/advanced/sql-requests/?_token=X9Pyj1MP-g2KKbG3q0dqfptaJiF_ZPoT5vFrBYxFtEE\" class=\"link\"> Database
                               </a>
                             </li>
 
@@ -1125,7 +1113,7 @@ function updateNotifications(type) {
                             
                                                         
                             <li class=\"link-leveltwo \" data-submenu=\"116\" id=\"subtab-AdminLogs\">
-                              <a href=\"/admin162vw1kms/index.php/configure/advanced/logs/?_token=3UfCib4G_nsSDkykhGYZ3UKdd6K-TCwnicpl9owj7Uo\" class=\"link\"> Logs
+                              <a href=\"/admin162vw1kms/index.php/configure/advanced/logs/?_token=X9Pyj1MP-g2KKbG3q0dqfptaJiF_ZPoT5vFrBYxFtEE\" class=\"link\"> Logs
                               </a>
                             </li>
 
@@ -1133,7 +1121,7 @@ function updateNotifications(type) {
                             
                                                         
                             <li class=\"link-leveltwo \" data-submenu=\"117\" id=\"subtab-AdminWebservice\">
-                              <a href=\"/admin162vw1kms/index.php/configure/advanced/webservice-keys/?_token=3UfCib4G_nsSDkykhGYZ3UKdd6K-TCwnicpl9owj7Uo\" class=\"link\"> Webservice
+                              <a href=\"/admin162vw1kms/index.php/configure/advanced/webservice-keys/?_token=X9Pyj1MP-g2KKbG3q0dqfptaJiF_ZPoT5vFrBYxFtEE\" class=\"link\"> Webservice
                               </a>
                             </li>
 
@@ -1173,7 +1161,7 @@ function updateNotifications(type) {
                       <li class=\"breadcrumb-item\">Traffic &amp; SEO</li>
           
                       <li class=\"breadcrumb-item active\">
-              <a href=\"/admin162vw1kms/index.php/configure/shop/seo-urls/?_token=3UfCib4G_nsSDkykhGYZ3UKdd6K-TCwnicpl9owj7Uo\" aria-current=\"page\">SEO &amp; URLs</a>
+              <a href=\"/admin162vw1kms/index.php/configure/shop/seo-urls/?_token=X9Pyj1MP-g2KKbG3q0dqfptaJiF_ZPoT5vFrBYxFtEE\" aria-current=\"page\">SEO &amp; URLs</a>
             </li>
                   </ol>
       </nav>
@@ -1257,13 +1245,13 @@ function updateNotifications(type) {
 
                                                                                     <a
                   class=\"btn btn-primary  pointer\"                  id=\"page-header-desc-configuration-add\"
-                  href=\"/admin162vw1kms/index.php/configure/shop/seo-urls/new?_token=3UfCib4G_nsSDkykhGYZ3UKdd6K-TCwnicpl9owj7Uo\"                  title=\"Add a new page\"                >
+                  href=\"/admin162vw1kms/index.php/configure/shop/seo-urls/new?_token=X9Pyj1MP-g2KKbG3q0dqfptaJiF_ZPoT5vFrBYxFtEE\"                  title=\"Add a new page\"                >
                   <i class=\"material-icons\">add_circle_outline</i>                  Add a new page
                 </a>
                                                                   <a
                 class=\"btn btn-outline-secondary \"
                 id=\"page-header-desc-configuration-modules-list\"
-                href=\"/admin162vw1kms/index.php/improve/modules/catalog?_token=3UfCib4G_nsSDkykhGYZ3UKdd6K-TCwnicpl9owj7Uo\"                title=\"Recommended Modules\"
+                href=\"/admin162vw1kms/index.php/improve/modules/catalog?_token=X9Pyj1MP-g2KKbG3q0dqfptaJiF_ZPoT5vFrBYxFtEE\"                title=\"Recommended Modules\"
                               >
                 Recommended Modules
               </a>
@@ -1273,7 +1261,7 @@ function updateNotifications(type) {
                    title=\"Help\"
                    data-toggle=\"sidebar\"
                    data-target=\"#right-sidebar\"
-                   data-url=\"/admin162vw1kms/index.php/common/sidebar/https%253A%252F%252Fhelp.prestashop.com%252Fen%252Fdoc%252FAdminMeta%253Fversion%253D1.7.6.3%2526country%253Den/Help?_token=3UfCib4G_nsSDkykhGYZ3UKdd6K-TCwnicpl9owj7Uo\"
+                   data-url=\"/admin162vw1kms/index.php/common/sidebar/https%253A%252F%252Fhelp.prestashop.com%252Fen%252Fdoc%252FAdminMeta%253Fversion%253D1.7.6.3%2526country%253Den/Help?_token=X9Pyj1MP-g2KKbG3q0dqfptaJiF_ZPoT5vFrBYxFtEE\"
                    id=\"product_form_open_help\"
                 >
                   Help
@@ -1288,7 +1276,7 @@ function updateNotifications(type) {
       <div class=\"page-head-tabs\" id=\"head_tabs\">
       <ul class=\"nav nav-pills\">
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     <li class=\"nav-item\">
-                    <a href=\"/admin162vw1kms/index.php/configure/shop/seo-urls/?_token=3UfCib4G_nsSDkykhGYZ3UKdd6K-TCwnicpl9owj7Uo\" id=\"subtab-AdminMeta\" class=\"nav-link tab active current\" data-submenu=\"97\">
+                    <a href=\"/admin162vw1kms/index.php/configure/shop/seo-urls/?_token=X9Pyj1MP-g2KKbG3q0dqfptaJiF_ZPoT5vFrBYxFtEE\" id=\"subtab-AdminMeta\" class=\"nav-link tab active current\" data-submenu=\"97\">
                       SEO & URLs
                       <span class=\"notification-container\">
                         <span class=\"notification-counter\"></span>
@@ -1360,7 +1348,7 @@ function updateNotifications(type) {
   var onBoarding;
 
   \$(function(){
-    onBoarding = new OnBoarding(0, {\"groups\":[{\"steps\":[{\"type\":\"popup\",\"text\":\"<div class=\\\"onboarding-welcome\\\">\\n  <i class=\\\"material-icons onboarding-button-shut-down\\\">close<\\/i>\\n  <p class=\\\"welcome\\\">Welcome to your shop!<\\/p>\\n  <div class=\\\"content\\\">\\n    <p>Hi! My name is Preston and I'm here to show you around.<\\/p>\\n    <p>You will discover a few essential steps before you can launch your shop:\\n    Create your first product, customize your shop, configure shipping and payments...<\\/p>\\n  <\\/div>\\n  <div class=\\\"started\\\">\\n    <p>Let's get started!<\\/p>\\n  <\\/div>\\n  <div class=\\\"buttons\\\">\\n    <button class=\\\"btn btn-tertiary-outline btn-lg onboarding-button-shut-down\\\">Later<\\/button>\\n    <button class=\\\"blue-balloon btn btn-primary btn-lg with-spinner onboarding-button-next\\\">Start<\\/button>\\n  <\\/div>\\n<\\/div>\\n\",\"options\":[\"savepoint\",\"hideFooter\"],\"page\":\"http:\\/\\/quynhonsmartservices.herokuapp.com\\/admin162vw1kms\\/index.php?controller=AdminDashboard&token=dabd11e68f2ab2a6c27d13572c381a57\"}]},{\"title\":\"Let's create your first product\",\"subtitle\":{\"1\":\"What do you want to tell about it? Think about what your customers want to know.\",\"2\":\"Add clear and attractive information. Don't worry, you can edit it later :)\"},\"steps\":[{\"type\":\"tooltip\",\"text\":\"Give your product a catchy name.\",\"options\":[\"savepoint\"],\"page\":[\"\\/admin162vw1kms\\/index.php\\/sell\\/catalog\\/products\\/new?_token=3UfCib4G_nsSDkykhGYZ3UKdd6K-TCwnicpl9owj7Uo\",\"admin162vw1kms\\/index.php\\/sell\\/catalog\\/products\\/.+\"],\"selector\":\"#form_step1_name_1\",\"position\":\"right\"},{\"type\":\"tooltip\",\"text\":\"Fill out the essential details in this tab. The other tabs are for more advanced information.\",\"page\":\"admin162vw1kms\\/index.php\\/sell\\/catalog\\/products\\/.+\",\"selector\":\"#tab_step1\",\"position\":\"right\"},{\"type\":\"tooltip\",\"text\":\"Add one or more pictures so your product looks tempting!\",\"page\":\"admin162vw1kms\\/index.php\\/sell\\/catalog\\/products\\/.+\",\"selector\":\"#product-images-dropzone\",\"position\":\"right\"},{\"type\":\"tooltip\",\"text\":\"How much do you want to sell it for?\",\"page\":\"admin162vw1kms\\/index.php\\/sell\\/catalog\\/products\\/.+\",\"selector\":\".right-column > .row > .col-md-12 > .form-group:nth-child(4) > .row > .col-md-6:first-child > .input-group\",\"position\":\"left\",\"action\":{\"selector\":\"#product_form_save_go_to_catalog_btn\",\"action\":\"click\"}},{\"type\":\"tooltip\",\"text\":\"Yay! You just created your first product. Looks good, right?\",\"page\":\"admin162vw1kms\\/index.php\\/sell\\/catalog\\/products\",\"selector\":\"#product_catalog_list table tr:first-child td:nth-child(3)\",\"position\":\"left\"}]},{\"title\":\"Give your shop its own identity\",\"subtitle\":{\"1\":\"How do you want your shop to look? What makes it so special?\",\"2\":\"Customize your theme or choose the best design from our theme catalog.\"},\"steps\":[{\"type\":\"tooltip\",\"text\":\"A good way to start is to add your own logo here!\",\"options\":[\"savepoint\"],\"page\":\"\\/admin162vw1kms\\/index.php\\/improve\\/design\\/themes\\/?_token=3UfCib4G_nsSDkykhGYZ3UKdd6K-TCwnicpl9owj7Uo\",\"selector\":\"#form_shop_logos_header_logo\",\"position\":\"right\"},{\"type\":\"tooltip\",\"text\":\"If you want something really special, have a look at the theme catalog!\",\"page\":\"\\/admin162vw1kms\\/index.php\\/improve\\/design\\/themes-catalog\\/?_token=3UfCib4G_nsSDkykhGYZ3UKdd6K-TCwnicpl9owj7Uo\",\"selector\":\".addons-theme-one:first-child\",\"position\":\"right\"}]},{\"title\":\"Get your shop ready for payments\",\"subtitle\":{\"1\":\"How do you want your customers to pay you?\",\"2\":\"Adapt your offer to your market: add the most popular payment methods for your customers!\"},\"steps\":[{\"type\":\"tooltip\",\"text\":\"These payment methods are already available to your customers.\",\"options\":[\"savepoint\"],\"page\":\"\\/admin162vw1kms\\/index.php\\/improve\\/payment\\/payment_methods?_token=3UfCib4G_nsSDkykhGYZ3UKdd6K-TCwnicpl9owj7Uo\",\"selector\":\".modules_list_container_tab:first tr:first-child .text-muted, .card:eq(0) .text-muted:eq(0)\",\"position\":\"right\"},{\"type\":\"tooltip\",\"text\":\"And you can choose to add other payment methods from here!\",\"page\":\"\\/admin162vw1kms\\/index.php\\/improve\\/payment\\/payment_methods?_token=3UfCib4G_nsSDkykhGYZ3UKdd6K-TCwnicpl9owj7Uo\",\"selector\":\".panel:eq(1) table tr:eq(0) td:eq(1), .card:eq(1) .module-item-list div:eq(0) div:eq(1)\",\"position\":\"top\"}]},{\"title\":\"Choose your shipping solutions\",\"subtitle\":{\"1\":\"How do you want to deliver your products?\",\"2\":\"Select the shipping solutions the most likely to suit your customers! Create your own carrier or add a ready-made module.\"},\"steps\":[{\"type\":\"tooltip\",\"text\":\"Here are the shipping methods available on your shop today.\",\"options\":[\"savepoint\"],\"page\":\"http:\\/\\/quynhonsmartservices.herokuapp.com\\/admin162vw1kms\\/index.php?controller=AdminCarriers&token=c0b2ef82136773b019f5fa6a4bd78248\",\"selector\":\"#table-carrier tr:eq(2) td:eq(3)\",\"position\":\"right\"},{\"type\":\"tooltip\",\"text\":\"You can offer more delivery options by setting up additional carriers\",\"page\":\"http:\\/\\/quynhonsmartservices.herokuapp.com\\/admin162vw1kms\\/index.php?controller=AdminCarriers&token=c0b2ef82136773b019f5fa6a4bd78248\",\"selector\":\".modules_list_container_tab tr:eq(0) .text-muted\",\"position\":\"right\"}]},{\"title\":\"Improve your shop with modules\",\"subtitle\":{\"1\":\"Add new features and manage existing ones thanks to modules.\",\"2\":\"Some modules are already pre-installed, others may be free or paid modules - browse our selection and find out what is available!\"},\"steps\":[{\"type\":\"tooltip\",\"text\":\"Discover our module selection in the first tab. Manage your modules on the second one and be aware of notifications in the third tab.\",\"options\":[\"savepoint\"],\"page\":\"\\/admin162vw1kms\\/index.php\\/improve\\/modules\\/catalog?_token=3UfCib4G_nsSDkykhGYZ3UKdd6K-TCwnicpl9owj7Uo\",\"selector\":\".page-head-tabs .tab:eq(0)\",\"position\":\"right\"},{\"type\":\"popup\",\"text\":\"<div id=\\\"onboarding-welcome\\\" class=\\\"modal-body\\\">\\n    <div class=\\\"col-12\\\">\\n        <button class=\\\"onboarding-button-next pull-right close\\\" type=\\\"button\\\">&times;<\\/button>\\n        <h2 class=\\\"text-center text-md-center\\\">Over to you!<\\/h2>\\n    <\\/div>\\n    <div class=\\\"col-12\\\">\\n        <p class=\\\"text-center text-md-center\\\">\\n          You've seen the essential, but there's a lot more to explore.<br \\/>\\n          Some resources can help you go further:\\n        <\\/p>\\n        <div class=\\\"container-fluid\\\">\\n          <div class=\\\"row\\\">\\n            <div class=\\\"col-md-6  justify-content-center text-center text-md-center link-container\\\">\\n              <a class=\\\"final-link\\\" href=\\\"http:\\/\\/doc.prestashop.com\\/display\\/PS17\\/Getting+Started\\\" target=\\\"_blank\\\">\\n                <div class=\\\"starter-guide\\\"><\\/div>\\n                <span class=\\\"link\\\">Starter Guide<\\/span>\\n              <\\/a>\\n            <\\/div>\\n            <div class=\\\"col-md-6 text-center text-md-center link-container\\\">\\n              <a class=\\\"final-link\\\" href=\\\"https:\\/\\/www.prestashop.com\\/forums\\/\\\" target=\\\"_blank\\\">\\n                <div class=\\\"forum\\\"><\\/div>\\n                <span class=\\\"link\\\">Forum<\\/span>\\n              <\\/a>\\n            <\\/div>\\n          <\\/div>\\n          <div class=\\\"row\\\">\\n            <div class=\\\"col-md-6 text-center text-md-center link-container\\\">\\n              <a class=\\\"final-link\\\" href=\\\"https:\\/\\/www.prestashop.com\\/en\\/training-prestashop\\\" target=\\\"_blank\\\">\\n                <div class=\\\"training\\\"><\\/div>\\n                <span class=\\\"link\\\">Training<\\/span>\\n              <\\/a>\\n            <\\/div>\\n            <div class=\\\"col-md-6 text-center text-md-center link-container\\\">\\n              <a class=\\\"final-link\\\" href=\\\"https:\\/\\/www.youtube.com\\/user\\/prestashop\\\" target=\\\"_blank\\\">\\n                <div class=\\\"video-tutorial\\\"><\\/div>\\n                <span class=\\\"link\\\">Video tutorial<\\/span>\\n              <\\/a>\\n            <\\/div>\\n          <\\/div>\\n        <\\/div>\\n    <\\/div>\\n    <div class=\\\"modal-footer\\\">\\n        <div class=\\\"col-12\\\">\\n            <div class=\\\"text-center text-md-center\\\">\\n                <button class=\\\"btn btn-primary onboarding-button-next\\\">I'm ready<\\/button>\\n            <\\/div>\\n        <\\/div>\\n    <\\/div>\\n<\\/div>\\n\",\"options\":[\"savepoint\",\"hideFooter\"],\"page\":\"admin162vw1kms\\/index.php\\/improve\\/modules\\/catalog\"}]}]}, 1, \"http://quynhonsmartservices.herokuapp.com/admin162vw1kms/index.php?controller=AdminWelcome&token=7358f4e8e79190414ac3e83407471580\", baseAdminDir);
+    onBoarding = new OnBoarding(0, {\"groups\":[{\"steps\":[{\"type\":\"popup\",\"text\":\"<div class=\\\"onboarding-welcome\\\">\\n  <i class=\\\"material-icons onboarding-button-shut-down\\\">close<\\/i>\\n  <p class=\\\"welcome\\\">Welcome to your shop!<\\/p>\\n  <div class=\\\"content\\\">\\n    <p>Hi! My name is Preston and I'm here to show you around.<\\/p>\\n    <p>You will discover a few essential steps before you can launch your shop:\\n    Create your first product, customize your shop, configure shipping and payments...<\\/p>\\n  <\\/div>\\n  <div class=\\\"started\\\">\\n    <p>Let's get started!<\\/p>\\n  <\\/div>\\n  <div class=\\\"buttons\\\">\\n    <button class=\\\"btn btn-tertiary-outline btn-lg onboarding-button-shut-down\\\">Later<\\/button>\\n    <button class=\\\"blue-balloon btn btn-primary btn-lg with-spinner onboarding-button-next\\\">Start<\\/button>\\n  <\\/div>\\n<\\/div>\\n\",\"options\":[\"savepoint\",\"hideFooter\"],\"page\":\"http:\\/\\/quynhonsmartservices.herokuapp.com\\/admin162vw1kms\\/index.php?controller=AdminDashboard&token=dabd11e68f2ab2a6c27d13572c381a57\"}]},{\"title\":\"Let's create your first product\",\"subtitle\":{\"1\":\"What do you want to tell about it? Think about what your customers want to know.\",\"2\":\"Add clear and attractive information. Don't worry, you can edit it later :)\"},\"steps\":[{\"type\":\"tooltip\",\"text\":\"Give your product a catchy name.\",\"options\":[\"savepoint\"],\"page\":[\"\\/admin162vw1kms\\/index.php\\/sell\\/catalog\\/products\\/new?_token=X9Pyj1MP-g2KKbG3q0dqfptaJiF_ZPoT5vFrBYxFtEE\",\"admin162vw1kms\\/index.php\\/sell\\/catalog\\/products\\/.+\"],\"selector\":\"#form_step1_name_1\",\"position\":\"right\"},{\"type\":\"tooltip\",\"text\":\"Fill out the essential details in this tab. The other tabs are for more advanced information.\",\"page\":\"admin162vw1kms\\/index.php\\/sell\\/catalog\\/products\\/.+\",\"selector\":\"#tab_step1\",\"position\":\"right\"},{\"type\":\"tooltip\",\"text\":\"Add one or more pictures so your product looks tempting!\",\"page\":\"admin162vw1kms\\/index.php\\/sell\\/catalog\\/products\\/.+\",\"selector\":\"#product-images-dropzone\",\"position\":\"right\"},{\"type\":\"tooltip\",\"text\":\"How much do you want to sell it for?\",\"page\":\"admin162vw1kms\\/index.php\\/sell\\/catalog\\/products\\/.+\",\"selector\":\".right-column > .row > .col-md-12 > .form-group:nth-child(4) > .row > .col-md-6:first-child > .input-group\",\"position\":\"left\",\"action\":{\"selector\":\"#product_form_save_go_to_catalog_btn\",\"action\":\"click\"}},{\"type\":\"tooltip\",\"text\":\"Yay! You just created your first product. Looks good, right?\",\"page\":\"admin162vw1kms\\/index.php\\/sell\\/catalog\\/products\",\"selector\":\"#product_catalog_list table tr:first-child td:nth-child(3)\",\"position\":\"left\"}]},{\"title\":\"Give your shop its own identity\",\"subtitle\":{\"1\":\"How do you want your shop to look? What makes it so special?\",\"2\":\"Customize your theme or choose the best design from our theme catalog.\"},\"steps\":[{\"type\":\"tooltip\",\"text\":\"A good way to start is to add your own logo here!\",\"options\":[\"savepoint\"],\"page\":\"\\/admin162vw1kms\\/index.php\\/improve\\/design\\/themes\\/?_token=X9Pyj1MP-g2KKbG3q0dqfptaJiF_ZPoT5vFrBYxFtEE\",\"selector\":\"#form_shop_logos_header_logo\",\"position\":\"right\"},{\"type\":\"tooltip\",\"text\":\"If you want something really special, have a look at the theme catalog!\",\"page\":\"\\/admin162vw1kms\\/index.php\\/improve\\/design\\/themes-catalog\\/?_token=X9Pyj1MP-g2KKbG3q0dqfptaJiF_ZPoT5vFrBYxFtEE\",\"selector\":\".addons-theme-one:first-child\",\"position\":\"right\"}]},{\"title\":\"Get your shop ready for payments\",\"subtitle\":{\"1\":\"How do you want your customers to pay you?\",\"2\":\"Adapt your offer to your market: add the most popular payment methods for your customers!\"},\"steps\":[{\"type\":\"tooltip\",\"text\":\"These payment methods are already available to your customers.\",\"options\":[\"savepoint\"],\"page\":\"\\/admin162vw1kms\\/index.php\\/improve\\/payment\\/payment_methods?_token=X9Pyj1MP-g2KKbG3q0dqfptaJiF_ZPoT5vFrBYxFtEE\",\"selector\":\".modules_list_container_tab:first tr:first-child .text-muted, .card:eq(0) .text-muted:eq(0)\",\"position\":\"right\"},{\"type\":\"tooltip\",\"text\":\"And you can choose to add other payment methods from here!\",\"page\":\"\\/admin162vw1kms\\/index.php\\/improve\\/payment\\/payment_methods?_token=X9Pyj1MP-g2KKbG3q0dqfptaJiF_ZPoT5vFrBYxFtEE\",\"selector\":\".panel:eq(1) table tr:eq(0) td:eq(1), .card:eq(1) .module-item-list div:eq(0) div:eq(1)\",\"position\":\"top\"}]},{\"title\":\"Choose your shipping solutions\",\"subtitle\":{\"1\":\"How do you want to deliver your products?\",\"2\":\"Select the shipping solutions the most likely to suit your customers! Create your own carrier or add a ready-made module.\"},\"steps\":[{\"type\":\"tooltip\",\"text\":\"Here are the shipping methods available on your shop today.\",\"options\":[\"savepoint\"],\"page\":\"http:\\/\\/quynhonsmartservices.herokuapp.com\\/admin162vw1kms\\/index.php?controller=AdminCarriers&token=c0b2ef82136773b019f5fa6a4bd78248\",\"selector\":\"#table-carrier tr:eq(2) td:eq(3)\",\"position\":\"right\"},{\"type\":\"tooltip\",\"text\":\"You can offer more delivery options by setting up additional carriers\",\"page\":\"http:\\/\\/quynhonsmartservices.herokuapp.com\\/admin162vw1kms\\/index.php?controller=AdminCarriers&token=c0b2ef82136773b019f5fa6a4bd78248\",\"selector\":\".modules_list_container_tab tr:eq(0) .text-muted\",\"position\":\"right\"}]},{\"title\":\"Improve your shop with modules\",\"subtitle\":{\"1\":\"Add new features and manage existing ones thanks to modules.\",\"2\":\"Some modules are already pre-installed, others may be free or paid modules - browse our selection and find out what is available!\"},\"steps\":[{\"type\":\"tooltip\",\"text\":\"Discover our module selection in the first tab. Manage your modules on the second one and be aware of notifications in the third tab.\",\"options\":[\"savepoint\"],\"page\":\"\\/admin162vw1kms\\/index.php\\/improve\\/modules\\/catalog?_token=X9Pyj1MP-g2KKbG3q0dqfptaJiF_ZPoT5vFrBYxFtEE\",\"selector\":\".page-head-tabs .tab:eq(0)\",\"position\":\"right\"},{\"type\":\"popup\",\"text\":\"<div id=\\\"onboarding-welcome\\\" class=\\\"modal-body\\\">\\n    <div class=\\\"col-12\\\">\\n        <button class=\\\"onboarding-button-next pull-right close\\\" type=\\\"button\\\">&times;<\\/button>\\n        <h2 class=\\\"text-center text-md-center\\\">Over to you!<\\/h2>\\n    <\\/div>\\n    <div class=\\\"col-12\\\">\\n        <p class=\\\"text-center text-md-center\\\">\\n          You've seen the essential, but there's a lot more to explore.<br \\/>\\n          Some resources can help you go further:\\n        <\\/p>\\n        <div class=\\\"container-fluid\\\">\\n          <div class=\\\"row\\\">\\n            <div class=\\\"col-md-6  justify-content-center text-center text-md-center link-container\\\">\\n              <a class=\\\"final-link\\\" href=\\\"http:\\/\\/doc.prestashop.com\\/display\\/PS17\\/Getting+Started\\\" target=\\\"_blank\\\">\\n                <div class=\\\"starter-guide\\\"><\\/div>\\n                <span class=\\\"link\\\">Starter Guide<\\/span>\\n              <\\/a>\\n            <\\/div>\\n            <div class=\\\"col-md-6 text-center text-md-center link-container\\\">\\n              <a class=\\\"final-link\\\" href=\\\"https:\\/\\/www.prestashop.com\\/forums\\/\\\" target=\\\"_blank\\\">\\n                <div class=\\\"forum\\\"><\\/div>\\n                <span class=\\\"link\\\">Forum<\\/span>\\n              <\\/a>\\n            <\\/div>\\n          <\\/div>\\n          <div class=\\\"row\\\">\\n            <div class=\\\"col-md-6 text-center text-md-center link-container\\\">\\n              <a class=\\\"final-link\\\" href=\\\"https:\\/\\/www.prestashop.com\\/en\\/training-prestashop\\\" target=\\\"_blank\\\">\\n                <div class=\\\"training\\\"><\\/div>\\n                <span class=\\\"link\\\">Training<\\/span>\\n              <\\/a>\\n            <\\/div>\\n            <div class=\\\"col-md-6 text-center text-md-center link-container\\\">\\n              <a class=\\\"final-link\\\" href=\\\"https:\\/\\/www.youtube.com\\/user\\/prestashop\\\" target=\\\"_blank\\\">\\n                <div class=\\\"video-tutorial\\\"><\\/div>\\n                <span class=\\\"link\\\">Video tutorial<\\/span>\\n              <\\/a>\\n            <\\/div>\\n          <\\/div>\\n        <\\/div>\\n    <\\/div>\\n    <div class=\\\"modal-footer\\\">\\n        <div class=\\\"col-12\\\">\\n            <div class=\\\"text-center text-md-center\\\">\\n                <button class=\\\"btn btn-primary onboarding-button-next\\\">I'm ready<\\/button>\\n            <\\/div>\\n        <\\/div>\\n    <\\/div>\\n<\\/div>\\n\",\"options\":[\"savepoint\",\"hideFooter\"],\"page\":\"admin162vw1kms\\/index.php\\/improve\\/modules\\/catalog\"}]}]}, 1, \"http://quynhonsmartservices.herokuapp.com/admin162vw1kms/index.php?controller=AdminWelcome&token=7358f4e8e79190414ac3e83407471580\", baseAdminDir);
 
           onBoarding.addTemplate('lost', '<div class=\"onboarding onboarding-popup bootstrap\">  <div class=\"content\">    <p>Hey! Are you lost?</p>    <p>To continue, click here:</p>    <div class=\"text-center\">      <button class=\"btn btn-primary onboarding-button-goto-current\">Continue</button>    </div>    <p>If you want to stop the tutorial for good, click here:</p>    <div class=\"text-center\">      <button class=\"btn btn-alert onboarding-button-stop\">Quit the Welcome tutorial</button>    </div>  </div></div>');
           onBoarding.addTemplate('popup', '<div class=\"onboarding-popup bootstrap\">  <div class=\"content\"></div></div>');
@@ -1401,18 +1389,18 @@ function updateNotifications(type) {
 
 
   ";
-        // line 1361
+        // line 1349
         $this->displayBlock('content_header', $context, $blocks);
-        // line 1362
+        // line 1350
         echo "                 ";
         $this->displayBlock('content', $context, $blocks);
-        // line 1363
+        // line 1351
         echo "                 ";
         $this->displayBlock('content_footer', $context, $blocks);
-        // line 1364
+        // line 1352
         echo "                 ";
         $this->displayBlock('sidebar_right', $context, $blocks);
-        // line 1365
+        // line 1353
         echo "
              
 <div class=\"modal fade\" id=\"modules_list_container\">
@@ -1535,7 +1523,7 @@ function updateNotifications(type) {
     </div>
   
 ";
-        // line 1486
+        // line 1474
         $this->displayBlock('javascripts', $context, $blocks);
         $this->displayBlock('extra_javascripts', $context, $blocks);
         $this->displayBlock('translate_javascripts', $context, $blocks);
@@ -1552,27 +1540,27 @@ function updateNotifications(type) {
     {
     }
 
-    // line 1361
+    // line 1349
     public function block_content_header($context, array $blocks = [])
     {
     }
 
-    // line 1362
+    // line 1350
     public function block_content($context, array $blocks = [])
     {
     }
 
-    // line 1363
+    // line 1351
     public function block_content_footer($context, array $blocks = [])
     {
     }
 
-    // line 1364
+    // line 1352
     public function block_sidebar_right($context, array $blocks = [])
     {
     }
 
-    // line 1486
+    // line 1474
     public function block_javascripts($context, array $blocks = [])
     {
     }
@@ -1587,12 +1575,12 @@ function updateNotifications(type) {
 
     public function getTemplateName()
     {
-        return "__string_template__bbbf9b86c230314c543f1e3ff63c39b5274e324e81c3ecf69427062164cb976f";
+        return "__string_template__e6d951fc4499d94e3066c1698d663087125a313cecbc3fada91f18c524696f6f";
     }
 
     public function getDebugInfo()
     {
-        return array (  1576 => 1486,  1571 => 1364,  1566 => 1363,  1561 => 1362,  1556 => 1361,  1547 => 176,  1539 => 1486,  1416 => 1365,  1413 => 1364,  1410 => 1363,  1407 => 1362,  1405 => 1361,  216 => 176,  39 => 1,);
+        return array (  1564 => 1474,  1559 => 1352,  1554 => 1351,  1549 => 1350,  1544 => 1349,  1535 => 176,  1527 => 1474,  1404 => 1353,  1401 => 1352,  1398 => 1351,  1395 => 1350,  1393 => 1349,  216 => 176,  39 => 1,);
     }
 
     /** @deprecated since 1.27 (to be removed in 2.0). Use getSourceContext() instead */
@@ -1605,6 +1593,6 @@ function updateNotifications(type) {
 
     public function getSourceContext()
     {
-        return new Source("", "__string_template__bbbf9b86c230314c543f1e3ff63c39b5274e324e81c3ecf69427062164cb976f", "");
+        return new Source("", "__string_template__e6d951fc4499d94e3066c1698d663087125a313cecbc3fada91f18c524696f6f", "");
     }
 }
